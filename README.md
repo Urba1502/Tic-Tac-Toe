@@ -1,26 +1,39 @@
-# ❌ Tic-Tac-Toe (Raylib) ⭕
+# Tic-Tac-Toe (C++ & Raylib)
 
+A custom-themed Tic-Tac-Toe game built using **C++** and the **Raylib** graphics library.
 
-![Tic Tac Toe Gameplay](assets/screenshot.png)
-![Tic Tac Toe Gameplay](assets/win.png)
-![Tic Tac Toe Gameplay](assets/tie.png)
-A custom-themed, graphical Tic-Tac-Toe game built in C++ using the **Raylib** library. This version features custom visual grids, a stylized background, and responsive retro sound effects for game states.
+## Features
 
-## 🎮 Features
-* **Custom Aesthetic Theme:** Visually styled grid and high-quality background art.
-* **Audio Integration:** Dedicated sound effects (`.wav`) for grid clicks, winning, and tie game states.
-* **Responsive Layout:** Smooth rendering powered by Raylib's hardware acceleration.
+- Styled grid layout with custom background
+- Two-player turn-based system ($X$ and $O$)
+- Responsive grid click detection
+- Custom retro audio sound effects
+- Turn indicators, win checking, and tie-game logic
+- Smooth rendering powered by hardware acceleration
 
----
+## Screenshots
 
-## 🛠️ Requirements & Setup
+### Gameplay
 
-To compile and run this project, you will need:
-* A C++ compiler (like `g++` via MinGW on Windows).
-* The **Raylib** development library installed.
+![Gameplay](assets/screenshot .png)
 
-### Compilation
-You can compile the project from your terminal using the following command (adjust paths if your Raylib setup is located elsewhere):
+### Game Over
 
-```bash
-g++ src/main.cpp -o Tic-Tac-Toe.exe -lraylib -lopengl32 -lgdi32 -lwinmm
+![Game Over](assets/win.png)
+
+## Controls
+
+| Key | Action |
+|-----|--------|
+| Left Mouse Click | Place Mark ($X$ or $O$) |
+| R | Restart Game |
+| Escape | Exit Game |
+
+## Technologies Used
+
+- C++
+- Raylib
+- Visual Studio Code
+- Git & GitHub
+
+## Project Structure
