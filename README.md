@@ -38,6 +38,7 @@ A custom-themed Tic-Tac-Toe game built using **C++** and the **Raylib** graphics
 
 ## Project Structure
 
+```
 Tic-Tac-Toe/
 │
 ├── assets/
@@ -53,6 +54,7 @@ Tic-Tac-Toe/
 │   └── main.cpp
 │
 └── README.md
+```
 
 
 ## How to Build
@@ -63,11 +65,23 @@ Tic-Tac-Toe/
 ```bash
 git clone [https://github.com/Urba1502/Tic-Tac-Toe.git](https://github.com/Urba1502/Tic-Tac-Toe.git)
 
-3.Run
+3. Open the project in Visual Studio Code.
+
+4. Compile using g++:
+
+```bash
 g++ src/main.cpp -o Tic-Tac-Toe.exe ^
 -I C:\raylib\raylib\src ^
 -L C:\raylib\raylib\src ^
 -lraylib -lopengl32 -lgdi32 -lwinmm
+```
+
+
+5. Run:
+
+```bash
+Tic-Tac-Toe.exe
+```
 
 ## Author
 
