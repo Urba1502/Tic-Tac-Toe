@@ -17,6 +17,10 @@ A custom-themed Tic-Tac-Toe game built using **C++** and the **Raylib** graphics
 
 ![Gameplay](assets/gameplay.png)
 
+### Game Tie
+
+![Game Over](assets/tie.png)
+
 ### Game Over
 
 ![Game Over](assets/win.png)
@@ -26,7 +30,7 @@ A custom-themed Tic-Tac-Toe game built using **C++** and the **Raylib** graphics
 | Key | Action |
 |-----|--------|
 | Left Mouse Click | Place Mark ($X$ or $O$) |
-| R | Restart Game |
+| SPACE_KEY | Restart Game |
 | Escape | Exit Game |
 
 ## Technologies Used
