@@ -1,7 +1,9 @@
 # ❌ Tic-Tac-Toe (Raylib) ⭕
 
-![Tic Tac Toe Gameplay](assets/screenshot.png)
 
+![Tic Tac Toe Gameplay](assets/screenshot.png)
+![Tic Tac Toe Gameplay](assets/win.png)
+![Tic Tac Toe Gameplay](assets/tie.png)
 A custom-themed, graphical Tic-Tac-Toe game built in C++ using the **Raylib** library. This version features custom visual grids, a stylized background, and responsive retro sound effects for game states.
 
 ## 🎮 Features
