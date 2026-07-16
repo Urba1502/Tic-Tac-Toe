@@ -15,7 +15,7 @@ A custom-themed Tic-Tac-Toe game built using **C++** and the **Raylib** graphics
 
 ### Gameplay
 
-![Gameplay](assets/screenshot .png)
+![Gameplay](assets/screenshot.png)
 
 ### Game Over
 
